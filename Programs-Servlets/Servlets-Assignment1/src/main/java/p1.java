@@ -1,0 +1,36 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/p1")
+public class p1 extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+
+    // Handles form submission
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        response.setContentType("text/html");
+
+        String name = request.getParameter("name");
+        String password = request.getParameter("password");
+
+        PrintWriter out = response.getWriter();
+        out.println("<html><body>");
+        out.println("<h2>Received Data:</h2>");
+        out.println("<p><strong>Name:</strong> " + name + "</p>");
+        out.println("<p><strong>Password:</strong> " + password + "</p>");
+        out.println("</body></html>");
+    }
+
+    // Handles direct URL access to /p1
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        response.sendRedirect("index.html"); // Redirect to form
+    }
+}

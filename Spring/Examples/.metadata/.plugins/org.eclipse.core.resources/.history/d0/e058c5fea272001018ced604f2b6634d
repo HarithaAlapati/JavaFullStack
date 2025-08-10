@@ -1,0 +1,22 @@
+package com.haritha.webapp.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import jakarta.security.auth.message.callback.SecretKeyCallback.Request;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
+
+@Controller
+public class AppController {
+	@RequestMapping("/home1") 
+	public String home(HttpServletRequest req) {
+		HttpSession session = req.getSession();
+		String name = req.getParameter("name");
+		System.out.println("name " + name);
+		session.setAttribute("name is: ", name);
+		return "home1";
+	}
+
+}

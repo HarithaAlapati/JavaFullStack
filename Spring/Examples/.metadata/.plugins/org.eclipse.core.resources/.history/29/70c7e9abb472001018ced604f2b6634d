@@ -1,0 +1,2 @@
+spring.application.name=bootjpa
+server.port= 9997

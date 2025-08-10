@@ -1,0 +1,5 @@
+package com.haritha.bootjpa.model;
+
+public class Alien {
+
+}

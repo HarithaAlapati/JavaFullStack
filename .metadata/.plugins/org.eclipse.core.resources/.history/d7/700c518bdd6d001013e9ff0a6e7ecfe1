@@ -1,0 +1,23 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Address a = new Address();
+		Customer c = new Customer();
+		
+		c.setSno(1);
+		System.out.println(c.getSno());
+		
+		c.setName("haritha");
+		System.out.println(c.getName());
+		
+		c.setEmail("haritha@gmail.com");
+		System.out.println(c.getEmail());
+		
+		c.setAddr("Andhra Pradesh");
+		System.out.println(c.getAddr());
+
+	}
+
+}

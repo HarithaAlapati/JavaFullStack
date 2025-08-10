@@ -1,0 +1,15 @@
+INDEX VERSION 1.134
+C:\Programs-Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\981755116.index
+\BasicSyntax\src\main\java
+C:\Programs-Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3844052892.index
+\BasicSyntax\src\main\java
+C:\Programs-Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1626788841.index
+\Ex1\src
+C:\Programs-Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2127680950.index
+\Dynamic\src\main\java
+C:\Programs-Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3046861946.index
+\BasicSyntax\src\main\java
+C:\Programs-Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2708178655.index
+\JSP-BasicSyntax\src\main\java
+C:\Programs-Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2835702048.index
+\BasicSyntax\src\main\java

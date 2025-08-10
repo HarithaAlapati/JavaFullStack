@@ -1,0 +1,19 @@
+package com.model;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.model.Address;
+
+public class CustomerMain {
+    public static void main(String[] args) {
+        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+
+        Customer cust = (Customer) context.getBean("customer");
+        System.out.println("Customer Name: " + cust.getName());
+
+        Address address = cust.getAddr();
+        System.out.println("City: " + address.getCityName());
+        
+    }
+}

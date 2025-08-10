@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- FlightService Bean -->
+    <bean id="flightService" class="com.airline.FlightService">
+        <property name="flightAvailability">
+            <map>
+                <entry key="FL123" value="2"/>
+                <entry key="FL456" value="0"/>
+            </map>
+        </property>
+    </bean>
+
+    <!-- TicketService Bean -->
+    <bean id="ticketService" class="com.airline.TicketService">
+        <property name="flightService" ref="flightService"/>
+    </bean>
+
+</beans>

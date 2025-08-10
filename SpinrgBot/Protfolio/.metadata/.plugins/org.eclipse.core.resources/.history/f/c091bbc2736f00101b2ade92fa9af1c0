@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p>Welcome to contact section</p>
+	<hr>
+	<h3>Phone</h3>
+	<p>+91 123456789</p>
+	
+	<h3>E-mail</h3>
+	<p>haritha@gmail.com</p>
+</body>
+</html>

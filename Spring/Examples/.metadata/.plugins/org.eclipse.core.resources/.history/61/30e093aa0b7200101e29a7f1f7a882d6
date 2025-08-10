@@ -1,0 +1,8 @@
+package com.booking.moviebooking.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.booking.moviebooking.entity.Customer;
+
+public interface ShowRepository extends JpaRepository<Customer, Long> {
+}

@@ -1,0 +1,16 @@
+package com.navin.Telusko;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Car implements Vehicle{
+	public void drive() {
+		System.out.println("Car class");
+	}
+
+	@Override
+	public void ride() {
+		// TODO Auto-generated method stub
+		
+	}
+}

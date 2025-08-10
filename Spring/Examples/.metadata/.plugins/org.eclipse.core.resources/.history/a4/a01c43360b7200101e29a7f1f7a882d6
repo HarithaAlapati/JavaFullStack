@@ -1,0 +1,35 @@
+package com.booking.moviebooking.controller;
+
+import com.booking.moviebooking.model.Show;
+import com.booking.moviebooking.service.ShowService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
+
+@RestController
+@RequestMapping("/shows")
+public class MovieController {
+
+    @Autowired
+    private ShowService showService;
+
+    @GetMapping
+    public List<Show> getAllShows() {
+        return showService.getAllShows();
+    }
+
+    @PostMapping
+    public Show addShow(@RequestBody Show show) {
+        return showService.addShow(show);
+    }
+
+    @GetMapping("/{id}")
+    public Show getShowById(@PathVariable Long id) {
+        return showService.getShowById(id);
+    }
+
+    @DeleteMapping("/{id}")
+    public void deleteShow(@PathVariable Long id) {
+        showService.deleteShow(id);
+    }
+}

@@ -1,0 +1,5 @@
+package com.haritha.bootjpa.dao;
+
+public class AlienRepo {
+
+}

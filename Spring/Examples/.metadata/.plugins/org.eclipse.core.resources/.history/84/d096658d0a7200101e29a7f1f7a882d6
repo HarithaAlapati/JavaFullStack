@@ -1,0 +1,24 @@
+package com.booking.moviebooking.controller;
+
+import com.booking.moviebooking.model.Booking;
+import com.booking.moviebooking.repository.BookingRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/booking")
+public class BookingController {
+
+    @Autowired
+    private BookingRepository bookingRepository;
+
+    @PostMapping
+    public Booking book(@RequestBody Booking booking) {
+        return bookingRepository.save(booking);
+    }
+
+    @GetMapping("/{id}")
+    public Booking getBooking(@PathVariable Long id) {
+        return bookingRepository.findById(id).orElse(null);
+    }
+}

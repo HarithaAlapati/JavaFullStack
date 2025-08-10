@@ -1,0 +1,28 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+public class p1 {
+
+	 protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	        // Set response content type
+	        response.setContentType("text/html");
+	        
+	        // Get form data
+	        String name = request.getParameter("name");
+	        String password = request.getParameter("password");
+
+	        // Print data
+	        PrintWriter out = response.getWriter();
+	        out.println("<html><body>");
+	        out.println("<h2>Received Data:</h2>");
+	        out.println("<p><strong>Name:</strong> " + name + "</p>");
+	        out.println("<p><strong>Password:</strong> " + password + "</p>");
+	        out.println("</body></html>");
+
+	}
+
+}

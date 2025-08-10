@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div  style="text-align: center;">
+<h2>Welcome to homepage</h2>
+	<p>About</p>
+	<p>Education</p>
+	<p>Skills</p>
+	<p>Contact</p>
+</div>	
+</body>
+</html>

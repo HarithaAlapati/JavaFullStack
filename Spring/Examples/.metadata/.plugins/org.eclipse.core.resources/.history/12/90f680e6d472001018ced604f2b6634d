@@ -1,0 +1,5 @@
+INSERT INTO alien (aid, aname, tech) VALUES (1, 'A', 'python');
+INSERT INTO alien (aid, aname, tech) VALUES (2, 'B', 'c');
+INSERT INTO alien (aid, aname, tech) VALUES (3, 'C', 'java');
+INSERT INTO alien (aid, aname, tech) VALUES (4, 'D', 'spring');
+INSERT INTO alien (aid, aname, tech) VALUES (5, 'E', 'boot');

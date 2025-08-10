@@ -1,0 +1,11 @@
+spring.application.name=webapp
+
+
+spring.mvc.view.prefix=/pages/home1
+
+
+spring.mvc.view.suffix=.jsp
+
+server.port = 9099
+
+

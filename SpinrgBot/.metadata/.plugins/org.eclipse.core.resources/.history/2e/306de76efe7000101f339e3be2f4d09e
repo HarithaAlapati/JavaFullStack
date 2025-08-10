@@ -1,0 +1,16 @@
+package com.example.ecommerce_app.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class AppController {
+
+	@GetMapping("/home")
+	public String showHomePage() {
+		return "home";
+	}
+	
+	@GetMapping("/add-customer")
+	public String showAddCustomer() {
+		return "add-customer";
+	}
+}

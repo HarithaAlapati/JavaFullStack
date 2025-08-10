@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="text-align: center;">
+	<h2>Welcome to skills section</h2>
+	<ul>
+	<li style="text-align: center;">HTML</li>
+	<li>CSS</li>
+	<li>JAVASCRIPT</li>
+	<li>C</li>
+	<li>PYTHON</li>
+	<li>CORE JAVA</li>
+	<li>SPRING</li>
+	<li>SPRING BOOT</li>
+</ul>
+</div>
+</body>
+</html>

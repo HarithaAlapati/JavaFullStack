@@ -1,0 +1,29 @@
+package com.navin.Telusko;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	/*	Car car = new Car();
+		car.drive();*/
+		
+	/*  XML CONFIGURATION
+	  	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+		Vehicle obj = (Vehicle) context.getBean("vehicle");
+		obj.drive();
+		ApplicationContext context1 = new ClassPathXmlApplicationContext("spring.xml");
+		Vehicle obj1 = (Vehicle) context1.getBean("vehicle1");
+		obj1.ride(); */
+		
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+		Vehicle obj = context.getBean("car");
+		obj.drive();
+		obj.ride();
+		
+			
+	}
+
+}

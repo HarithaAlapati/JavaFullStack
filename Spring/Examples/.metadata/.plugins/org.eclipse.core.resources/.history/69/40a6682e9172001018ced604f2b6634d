@@ -1,0 +1,5 @@
+spring.application.name=webapp
+server.port = 9091
+
+spring.mvc.view.prefix=/WEBAPP
+spring.mvc.view.suffix=.jsp

@@ -1,0 +1,5 @@
+spring.application.name=bootjpa
+server.port= 1003
+
+spring.mvc.view.prefix=/webapp/WEB-INF/views/
+spring.mvc.view.suffix= .jsp
