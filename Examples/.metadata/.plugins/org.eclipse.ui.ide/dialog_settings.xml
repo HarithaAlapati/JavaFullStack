@@ -6,11 +6,27 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\MSAssignment1\notification"/>
+			<item value="D:\MSAssignment1\assessment"/>
+			<item value="D:\MSAssignment1\classroom"/>
+			<item value="D:\MSAssignment1\course"/>
+			<item value="D:\MSAssignment1"/>
+			<item value="D:\Microservice-1"/>
+			<item value="D:\Microservices\payment-service"/>
+			<item value="D:\Microservices\order-service"/>
+			<item value="D:\Microservices\customer-service"/>
+			<item value="D:\Microservices\product-service"/>
+			<item value="D:\Microservices\api-gateway"/>
+			<item value="D:\Microservices"/>
+			<item value="C:\Programs-Eclipse\MicroService1"/>
+			<item value="C:\Programs-Eclipse\eureka-server"/>
+			<item value="C:\Programs-Eclipse\microservice2"/>
+			<item value="C:\Programs-Eclipse\microservices\MS"/>
 			<item value="C:\Programs-Eclipse\SpinrgBot"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="20"/>
-			<item key="DIALOG_Y_ORIGIN" value="-76"/>
+			<item key="DIALOG_X_ORIGIN" value="11"/>
+			<item key="DIALOG_Y_ORIGIN" value="11"/>
 			<item key="DIALOG_WIDTH" value="984"/>
 			<item key="DIALOG_HEIGHT" value="837"/>
 			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
